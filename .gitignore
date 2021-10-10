@@ -1,0 +1,8 @@
+# Xilinx
+*.log
+
+# VSCode
+.vscode
+
+# Work/Temp.
+_*
