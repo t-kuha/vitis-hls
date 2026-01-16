@@ -4,13 +4,13 @@
 
 ```shell-session
 # Set up Vitis HLS
-$ . ~/xilinx/Vitis_HLS/2021.1/settings64.sh 
+$ . <Vitis HLS tool directory>/settings64.sh 
 
 # Go to one of the project of choice
 $ cd <project directory>
 
 # Run
-$ vitis_hls build.tcl
+$ v++ -c --mode hls --config hls_config.cfg
 ```
 
 ***
