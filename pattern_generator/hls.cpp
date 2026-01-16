@@ -10,7 +10,7 @@ typedef ap_uint<11>                             HLS_SIZE_T;
 typedef ap_axiu<24, 1, 1, 1>	if_t;
 typedef hls::stream<if_t> 		stream_t;
 
-void petten_gen_axis(stream_t& out)
+void patten_gen_axis(stream_t& out)
 {
 #pragma HLS INTERFACE axis port=out
 

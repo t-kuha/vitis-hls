@@ -10,7 +10,7 @@ open_project ${PRJ_DIR} -reset
 # Test bench files
 add_files -tb "hls.h tb.cpp"
 # HLS files & create solution for Vivado flow
-set_top petten_gen_axis
+set_top patten_gen_axis
 add_files hls.cpp
 open_solution "solution1" -flow_target vivado -reset
 set_part ${PART} 

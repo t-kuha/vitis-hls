@@ -6,7 +6,7 @@ int main(int argc, char* argv[])
 {
 	stream_t out;
 	if_t pixel;
-	petten_gen_axis(out);
+	patten_gen_axis(out);
 
 	// Read out & show some data
 	size_t num_pixel = out.size();
