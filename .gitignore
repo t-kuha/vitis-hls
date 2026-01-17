@@ -1,5 +1,8 @@
 # Xilinx
 *.log
+vitis-comp.json
+vitis_journal.py
+.wsdata
 
 # VSCode
 .vscode
