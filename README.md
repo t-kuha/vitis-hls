@@ -10,6 +10,8 @@ $ . <Vitis HLS tool directory>/settings64.sh
 $ cd <project directory>
 
 # Run
+$ vitis -s run.py
+# or...
 $ v++ -c --mode hls --config hls_config.cfg
 ```
 
